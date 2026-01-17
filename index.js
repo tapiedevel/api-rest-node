@@ -6,7 +6,7 @@ app.use((req,res,next)=>{
 });
 
 app.get('/', (req,res)=>{
-    res.send('Bienvenidos a nuestra API REST');
+    res.send('Bienvenidos a nuestra API REST!');
 });
 
 const PORT = 3000;
